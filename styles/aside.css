@@ -1,0 +1,9 @@
+aside h1 {
+    font: var(--text-logo);
+    color: var(--pink);
+}
+
+aside p {
+    font: var(--body-md);
+    color: var(--text-heading);
+}
