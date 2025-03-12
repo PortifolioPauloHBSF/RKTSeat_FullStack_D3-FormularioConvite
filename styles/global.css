@@ -42,8 +42,6 @@
 
     --text-body: #c8cdd0;
     --text-heading: #f9f9f9;
-
-    zoom: 75%;
 }
 
 body {
@@ -57,10 +55,22 @@ a {
     color: inherit;
 }
 
+.gap-1 {
+    gap: 1rem;
+}
+
 .grid {
     display: grid;
 }
 
 .flex {
     display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
 }
