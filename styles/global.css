@@ -55,6 +55,10 @@ a {
     color: inherit;
 }
 
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
 .gap-1 {
     gap: 1rem;
 }
@@ -63,8 +67,20 @@ a {
     display: grid;
 }
 
+.grid-2c {
+    grid-template-columns: 1fr 1fr;
+}
+
 .flex {
     display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 .flex-1 {
@@ -73,4 +89,46 @@ a {
 
 .flex-2 {
     flex: 2;
+}
+
+.ac-light {
+    accent-color: var(--brand-light);
+}
+.ac-mid {
+    accent-color: var(--brand-mid);
+}
+.ac-dark {
+    accent-color: var(--brand-dark);
+}
+
+.ac-purple {
+    accent-color: var(--purple);
+}
+.ac-fuschia {
+    accent-color: var(--fuschia);
+}
+.ac-pink {
+    accent-color: var(--pink);
+}
+.ac-orange {
+    accent-color: var(--orange);
+}
+.ac-yellow {
+    accent-color: var(--yellow);
+}
+.ac-lime {
+    accent-color: var(--lime);
+}
+.ac-green {
+    accent-color: var(--green);
+}
+.ac-cyan {
+    accent-color: var(--cyan);
+}
+.ac-navy {
+    accent-color: var(--navy);
+}
+
+.ac-danger {
+    accent-color: var(--danger);
 }
