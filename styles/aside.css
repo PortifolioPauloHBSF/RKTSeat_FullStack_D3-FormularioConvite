@@ -4,6 +4,6 @@ aside h1 {
 }
 
 aside p {
-    font: var(--body-md);
+    font: var(--body-md-r);
     color: var(--text-heading);
 }

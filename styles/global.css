@@ -91,44 +91,44 @@ a {
     flex: 2;
 }
 
-.ac-light {
-    accent-color: var(--brand-light);
+.int-light::after {
+    background-color: var(--brand-light);
 }
-.ac-mid {
-    accent-color: var(--brand-mid);
+.int-mid::after {
+    background-color: var(--brand-mid);
 }
-.ac-dark {
-    accent-color: var(--brand-dark);
-}
-
-.ac-purple {
-    accent-color: var(--purple);
-}
-.ac-fuschia {
-    accent-color: var(--fuschia);
-}
-.ac-pink {
-    accent-color: var(--pink);
-}
-.ac-orange {
-    accent-color: var(--orange);
-}
-.ac-yellow {
-    accent-color: var(--yellow);
-}
-.ac-lime {
-    accent-color: var(--lime);
-}
-.ac-green {
-    accent-color: var(--green);
-}
-.ac-cyan {
-    accent-color: var(--cyan);
-}
-.ac-navy {
-    accent-color: var(--navy);
+.int-dark::after {
+    background-color: var(--brand-dark);
 }
 
-.ac-danger {
-    accent-color: var(--danger);
+.int-purple::after {
+    background-color: var(--purple);
+}
+.int-fuschia::after {
+    background-color: var(--fuschia);
+}
+.int-pink::after {
+    background-color: var(--pink);
+}
+.int-orange::after {
+    background-color: var(--orange);
+}
+.int-yellow::after {
+    background-color: var(--yellow);
+}
+.int-lime::after {
+    background-color: var(--lime);
+}
+.int-green::after {
+    background-color: var(--green);
+}
+.int-cyan::after {
+    background-color: var(--cyan);
+}
+.int-navy::after {
+    background-color: var(--navy);
+}
+
+.int-danger::after {
+    background-color: var(--danger);
 }
