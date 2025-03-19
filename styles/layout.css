@@ -3,6 +3,8 @@ body {
 }
 
 .app {
+    height: calc(100vh - 2.5rem);
+    overflow: hidden;
     max-width: 77.5rem;
     margin-inline: auto;
     grid-template-columns: 33% 67%;
@@ -17,15 +19,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow: hidden;
     border-radius: 0.75rem;
     padding: 2rem;
+
+    max-width: 100%;
 }
 
 .main-container {
     background-color: var(--shape-body);
     border-radius: 0.75rem;
-    overflow: auto;
     padding: 5rem 8.125rem;
+    overflow-y: auto;
+    max-width: 100%;
 }
-

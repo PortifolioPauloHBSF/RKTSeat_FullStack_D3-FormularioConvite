@@ -26,7 +26,7 @@
 
             <form action="">
 
-                <fieldset>
+                <fieldset class="about">
 
                     <legend>
                         <img src="assets/icons/calendar.svg" alt="Ícone de Calendário simbolizando compromisso">
@@ -94,118 +94,168 @@
 
 
                 </fieldset>
-                <legend>
-                    <img src="assets/icons/paintbrush-vertical.svg" alt="Ícone de Pincel simbolizando personalização">
-                    <span>Personalização</span>
-                </legend>
 
-                <label class="mb-1">Cor Principal</label>
-                <div class="input-wrapper">
-                    <div class="radio-color-wrapper">
-                        <div class="radio-color-item int-light">
-                            <input type="radio" name="color" value="brand-light">
-                        </div>
-                        <div class="radio-color-item int-navy">
-                            <input type="radio" name="color" value="accent-navy">
-                        </div>
-                        <div class="radio-color-item int-purple">
-                            <input type="radio" name="color" value="accent-purple">
-                        </div>
-                        <div class="radio-color-item int-fuschia">
-                            <input type="radio" name="color" value="accent-fuschia">
-                        </div>
-                        <div class="radio-color-item int-pink">
-                            <input type="radio" name="color" value="accent-pink">
-                        </div>
-                        <div class="radio-color-item int-danger">
-                            <input type="radio" name="color" value="feedback-danger">
-                        </div>
-                        <div class="radio-color-item int-orange">
-                            <input type="radio" name="color" value="accent-orange">
-                        </div>
-                        <div class="radio-color-item int-yellow">
-                            <input type="radio" name="color" value="accent-yellow">
-                        </div>
-                        <div class="radio-color-item int-lime">
-                            <input type="radio" name="color" value="accent-lime">
-                        </div>
-                        <div class="radio-color-item int-green">
-                            <input type="radio" name="color" value="accent-green">
-                        </div>
-                        <div class="radio-color-item int-cyan">
-                            <input type="radio" name="color" value="accent-cyan">
+
+                <fieldset class="personalization">
+                    <legend>
+                        <img src="assets/icons/paintbrush-vertical.svg" alt="Ícone de Pincel simbolizando personalização">
+                        <span>Personalização</span>
+                    </legend>
+
+                    <label class="mb-1">Cor Principal</label>
+                    <div class="input-wrapper">
+                        <div class="radio-color-wrapper">
+                            <div class="radio-color-item int-light">
+                                <input type="radio" name="color" value="brand-light">
+                            </div>
+                            <div class="radio-color-item int-navy">
+                                <input type="radio" name="color" value="accent-navy">
+                            </div>
+                            <div class="radio-color-item int-purple">
+                                <input type="radio" name="color" value="accent-purple">
+                            </div>
+                            <div class="radio-color-item int-fuschia">
+                                <input type="radio" name="color" value="accent-fuschia">
+                            </div>
+                            <div class="radio-color-item int-pink">
+                                <input type="radio" name="color" value="accent-pink">
+                            </div>
+                            <div class="radio-color-item int-danger">
+                                <input type="radio" name="color" value="feedback-danger">
+                            </div>
+                            <div class="radio-color-item int-orange">
+                                <input type="radio" name="color" value="accent-orange">
+                            </div>
+                            <div class="radio-color-item int-yellow">
+                                <input type="radio" name="color" value="accent-yellow">
+                            </div>
+                            <div class="radio-color-item int-lime">
+                                <input type="radio" name="color" value="accent-lime">
+                            </div>
+                            <div class="radio-color-item int-green">
+                                <input type="radio" name="color" value="accent-green">
+                            </div>
+                            <div class="radio-color-item int-cyan">
+                                <input type="radio" name="color" value="accent-cyan">
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <label class="mb-1">Tema do evento</label>
-                <div class="input-wrapper">
-                    <div class="radio-card-wrapper">
-                        <div class="radio-card-item">
-                            <img src="assets/images/birthday.png" alt="Bolo de Aniversário">
-                            <input type="radio" name="theme" id="bithday">
-                            <label for="bithday">Aniverário</label>
-                        </div>
-                        <div class="radio-card-item">
-                            <img src="assets/images/children-party.png" alt="Festa de Aniversário infantil">
-                            <input type="radio" name="theme" id="child">
-                            <label for="child">Infatil</label>
-                        </div>
-                        <div class="radio-card-item">
-                            <img src="assets/images/graduation.png" alt="Beca de formatura">
-                            <input type="radio" name="theme" id="graduation">
-                            <label for="graduation">Formatura</label>
-                        </div>
-                        <div class="radio-card-item">
-                            <img src="assets/images/marriage.png" alt="Alianças de casamento">
-                            <input type="radio" name="theme" id="marriage">
-                            <label for="marriage">Casamento</label>
-                        </div>
-                        <div class="radio-card-item">
-                            <img src="assets/images/baby-shower.png" alt="Itens de bebê">
-                            <input type="radio" name="theme" id="baby-shower">
-                            <label for="baby-shower">Chá de bebê</label>
-                        </div>
-                        <div class="radio-card-item">
-                            <img src="assets/images/bridal-shower.png" alt="Itens de cozinha">
-                            <input type="radio" name="theme" id="bridal-shower">
-                            <label for="bridal-shower">Chá de Panela</label>
-                        </div>
-                        <div class="radio-card-item">
-                            <img src="assets/images/carnival.png" alt="Serpertinas de carnaval">
-                            <input type="radio" name="theme" id="carnival">
-                            <label for="carnival">Carnaval</label>
-                        </div>
-                        <div class="radio-card-item">
-                            <img src="assets/images/easter.png" alt="Ovos de páscoa">
-                            <input type="radio" name="theme" id="easter">
-                            <label for="easter">Páscoa</label>
-                        </div>
-                        <div class="radio-card-item">
-                            <img src="assets/images/saint-george.png" alt="Bandeirinhas de São Jorge">
-                            <input type="radio" name="theme" id="saint-george">
-                            <label for="saint-george">São Jorge</label>
-                        </div>
-                        <div class="radio-card-item">
-                            <img src="assets/images/hallowen.png" alt="Abóboras de Hallowen">
-                            <input type="radio" name="theme" id="hallowen">
-                            <label for="hallowen">Hallowen</label>
-                        </div>
-                        <div class="radio-card-item">
-                            <img src="assets/images/christmas.png" alt="Presentes de natal">
-                            <input type="radio" name="theme" id="christmas">
-                            <label for="christmas">Natal</label>
-                        </div>
-                        <div class="radio-card-item">
-                            <img src="assets/images/others-party.png" alt="Pessoas brindando">
-                            <input type="radio" name="theme" id="bithday">
-                            <label for="bithday">Outro</label>
+                    <label class="mb-1">Tema do evento</label>
+                    <div class="input-wrapper mb-3">
+                        <div class="radio-card-wrapper">
+                            <div class="radio-card-item">
+                                <img src="assets/images/birthday.png" alt="Bolo de Aniversário">
+                                <input type="radio" name="theme" id="bithday">
+                                <label for="bithday">Aniverário</label>
+                            </div>
+                            <div class="radio-card-item">
+                                <img src="assets/images/children-party.png" alt="Festa de Aniversário infantil">
+                                <input type="radio" name="theme" id="child">
+                                <label for="child">Infatil</label>
+                            </div>
+                            <div class="radio-card-item">
+                                <img src="assets/images/graduation.png" alt="Beca de formatura">
+                                <input type="radio" name="theme" id="graduation">
+                                <label for="graduation">Formatura</label>
+                            </div>
+                            <div class="radio-card-item">
+                                <img src="assets/images/marriage.png" alt="Alianças de casamento">
+                                <input type="radio" name="theme" id="marriage">
+                                <label for="marriage">Casamento</label>
+                            </div>
+                            <div class="radio-card-item">
+                                <img src="assets/images/baby-shower.png" alt="Itens de bebê">
+                                <input type="radio" name="theme" id="baby-shower">
+                                <label for="baby-shower">Chá de bebê</label>
+                            </div>
+                            <div class="radio-card-item">
+                                <img src="assets/images/bridal-shower.png" alt="Itens de cozinha">
+                                <input type="radio" name="theme" id="bridal-shower">
+                                <label for="bridal-shower">Chá de Panela</label>
+                            </div>
+                            <div class="radio-card-item">
+                                <img src="assets/images/carnival.png" alt="Serpertinas de carnaval">
+                                <input type="radio" name="theme" id="carnival">
+                                <label for="carnival">Carnaval</label>
+                            </div>
+                            <div class="radio-card-item">
+                                <img src="assets/images/easter.png" alt="Ovos de páscoa">
+                                <input type="radio" name="theme" id="easter">
+                                <label for="easter">Páscoa</label>
+                            </div>
+                            <div class="radio-card-item">
+                                <img src="assets/images/saint-george.png" alt="Bandeirinhas de São Jorge">
+                                <input type="radio" name="theme" id="saint-george">
+                                <label for="saint-george">São Jorge</label>
+                            </div>
+                            <div class="radio-card-item">
+                                <img src="assets/images/hallowen.png" alt="Abóboras de Hallowen">
+                                <input type="radio" name="theme" id="hallowen">
+                                <label for="hallowen">Hallowen</label>
+                            </div>
+                            <div class="radio-card-item">
+                                <img src="assets/images/christmas.png" alt="Presentes de natal">
+                                <input type="radio" name="theme" id="christmas">
+                                <label for="christmas">Natal</label>
+                            </div>
+                            <div class="radio-card-item">
+                                <img src="assets/images/others-party.png" alt="Pessoas brindando">
+                                <input type="radio" name="theme" id="bithday" checked>
+                                <label for="bithday">Outro</label>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <fieldset>
 
+                    <div class="grid pers-row gap-1 mb-1">
+
+                        <div class="input-wrapper">
+                            <label for="style" class="mb-1">Estilo</label>
+                            <div class="toggle-wrapper">
+                                <input type="checkbox" name="style" id="style">
+                                <label for="style">Escuro</label>
+                            </div>
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label class="mb-1">Foto de Capa</label>
+                            <div class="file-wrapper">
+                                <label for="upload-image">
+                                    <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.14645 1.64645C8.34171 1.45118 8.65829 1.45118 8.85355 1.64645L12.1869 4.97978C12.3821 5.17504 12.3821 5.49162 12.1869 5.68689C11.9916 5.88215 11.675 5.88215 11.4798 5.68689L9 3.20711V10C9 10.2761 8.77614 10.5 8.5 10.5C8.22386 10.5 8 10.2761 8 10V3.20711L5.52022 5.68689C5.32496 5.88215 5.00838 5.88215 4.81311 5.68689C4.61785 5.49162 4.61785 5.17504 4.81311 4.97978L8.14645 1.64645ZM2.5 9.5C2.77614 9.5 3 9.72386 3 10V12.6667C3 12.8877 3.0878 13.0996 3.24408 13.2559C3.40036 13.4122 3.61232 13.5 3.83333 13.5H13.1667C13.3877 13.5 13.5996 13.4122 13.7559 13.2559C13.9122 13.0996 14 12.8877 14 12.6667V10C14 9.72386 14.2239 9.5 14.5 9.5C14.7761 9.5 15 9.72386 15 10V12.6667C15 13.1529 14.8068 13.6192 14.463 13.963C14.1192 14.3068 13.6529 14.5 13.1667 14.5H3.83333C3.3471 14.5 2.88079 14.3068 2.53697 13.963C2.19315 13.6192 2 13.1529 2 12.6667V10C2 9.72386 2.22386 9.5 2.5 9.5Z" fill="#59B2FF"/>
+                                        </svg>
+                                    Selecionar
+                                </label>
+                                <input type="file" name="upload-image" id="upload-image" accept="image/*" required>
+                            </div>
+                        </div>
+                    </div>
                 </fieldset>
+
+                <fieldset class="contact">
+                    <legend>
+                        <img src="assets/icons/contact.svg" alt="Ícone de contato na lista telefônica">
+                        <span>Dados para contato</span>
+                    </legend>
+
+                    <div class="input-wrapper mb-1">
+                        <label for="host-name">Nome</label>
+                        <input type="text" id="host-name" name="host-name" placeholder="Nome completo" required>
+                    </div>
+
+                    <div class="grid grid-2c gap-1">
+                        <div class="input-wrapper">
+                            <label for="host-email">E-mail</label>
+                            <input type="text" id="host-email" name="host-email" placeholder="exemplo@email.com" required>
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="host-phone">Telefone</label>
+                            <input type="text" id="host-phone" name="host-phone" placeholder="(99) 99999-9999" required>
+                        </div>
+                    </div>
+                </fieldset>
+
             </form>
         </main>
 
