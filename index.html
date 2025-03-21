@@ -222,11 +222,11 @@
                             <div class="file-wrapper">
                                 <label for="upload-image">
                                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.14645 1.64645C8.34171 1.45118 8.65829 1.45118 8.85355 1.64645L12.1869 4.97978C12.3821 5.17504 12.3821 5.49162 12.1869 5.68689C11.9916 5.88215 11.675 5.88215 11.4798 5.68689L9 3.20711V10C9 10.2761 8.77614 10.5 8.5 10.5C8.22386 10.5 8 10.2761 8 10V3.20711L5.52022 5.68689C5.32496 5.88215 5.00838 5.88215 4.81311 5.68689C4.61785 5.49162 4.61785 5.17504 4.81311 4.97978L8.14645 1.64645ZM2.5 9.5C2.77614 9.5 3 9.72386 3 10V12.6667C3 12.8877 3.0878 13.0996 3.24408 13.2559C3.40036 13.4122 3.61232 13.5 3.83333 13.5H13.1667C13.3877 13.5 13.5996 13.4122 13.7559 13.2559C13.9122 13.0996 14 12.8877 14 12.6667V10C14 9.72386 14.2239 9.5 14.5 9.5C14.7761 9.5 15 9.72386 15 10V12.6667C15 13.1529 14.8068 13.6192 14.463 13.963C14.1192 14.3068 13.6529 14.5 13.1667 14.5H3.83333C3.3471 14.5 2.88079 14.3068 2.53697 13.963C2.19315 13.6192 2 13.1529 2 12.6667V10C2 9.72386 2.22386 9.5 2.5 9.5Z" fill="#59B2FF"/>
-                                        </svg>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.14645 1.64645C8.34171 1.45118 8.65829 1.45118 8.85355 1.64645L12.1869 4.97978C12.3821 5.17504 12.3821 5.49162 12.1869 5.68689C11.9916 5.88215 11.675 5.88215 11.4798 5.68689L9 3.20711V10C9 10.2761 8.77614 10.5 8.5 10.5C8.22386 10.5 8 10.2761 8 10V3.20711L5.52022 5.68689C5.32496 5.88215 5.00838 5.88215 4.81311 5.68689C4.61785 5.49162 4.61785 5.17504 4.81311 4.97978L8.14645 1.64645ZM2.5 9.5C2.77614 9.5 3 9.72386 3 10V12.6667C3 12.8877 3.0878 13.0996 3.24408 13.2559C3.40036 13.4122 3.61232 13.5 3.83333 13.5H13.1667C13.3877 13.5 13.5996 13.4122 13.7559 13.2559C13.9122 13.0996 14 12.8877 14 12.6667V10C14 9.72386 14.2239 9.5 14.5 9.5C14.7761 9.5 15 9.72386 15 10V12.6667C15 13.1529 14.8068 13.6192 14.463 13.963C14.1192 14.3068 13.6529 14.5 13.1667 14.5H3.83333C3.3471 14.5 2.88079 14.3068 2.53697 13.963C2.19315 13.6192 2 13.1529 2 12.6667V10C2 9.72386 2.22386 9.5 2.5 9.5Z" fill="#59B2FF" />
+                                    </svg>
                                     Selecionar
                                 </label>
-                                <input type="file" name="upload-image" id="upload-image" accept="image/*" required>
+                                <input type="file" name="upload-image" id="upload-image" accept="image/*">
                             </div>
                         </div>
                     </div>
@@ -241,18 +241,49 @@
                     <div class="input-wrapper mb-1">
                         <label for="host-name">Nome</label>
                         <input type="text" id="host-name" name="host-name" placeholder="Nome completo" required>
+                        <div class="error">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16 3.66675C9.18851 3.66675 3.66669 9.18857 3.66669 16.0001C3.66669 22.8116 9.18851 28.3334 16 28.3334C22.8115 28.3334 28.3333 22.8116 28.3333 16.0001C28.3333 9.18857 22.8115 3.66675 16 3.66675ZM1.66669 16.0001C1.66669 8.084 8.08394 1.66675 16 1.66675C23.9161 1.66675 30.3333 8.084 30.3333 16.0001C30.3333 23.9162 23.9161 30.3334 16 30.3334C8.08394 30.3334 1.66669 23.9162 1.66669 16.0001ZM16 9.66675C16.5523 9.66675 17 10.1145 17 10.6667V16.0001C17 16.5524 16.5523 17.0001 16 17.0001C15.4477 17.0001 15 16.5524 15 16.0001V10.6667C15 10.1145 15.4477 9.66675 16 9.66675ZM15 21.3334C15 20.7811 15.4477 20.3334 16 20.3334H16.0134C16.5656 20.3334 17.0134 20.7811 17.0134 21.3334C17.0134 21.8857 16.5656 22.3334 16.0134 22.3334H16C15.4477 22.3334 15 21.8857 15 21.3334Z" fill="white"/>
+                                </svg>
+                            <span>Campo obrigatório</span>
+                        </div>
                     </div>
 
                     <div class="grid grid-2c gap-1">
                         <div class="input-wrapper">
                             <label for="host-email">E-mail</label>
-                            <input type="text" id="host-email" name="host-email" placeholder="exemplo@email.com" required>
+                            <input type="text" id="host-email" name="host-email" placeholder="exemplo@email.com">
                         </div>
 
                         <div class="input-wrapper">
                             <label for="host-phone">Telefone</label>
-                            <input type="text" id="host-phone" name="host-phone" placeholder="(99) 99999-9999" required>
+                            <input type="text" id="host-phone" name="host-phone" placeholder="(99) 99999-9999">
                         </div>
+                    </div>
+                </fieldset>
+
+                <fieldset clas="terms-and-send">
+                    <div class="checkbox-wrapper flex">
+                        <input type="checkbox" name="terms-conditions" id="terms-conditions">
+                        <div class="checkbox-box"></div>
+                        <label for="terms-conditions">Li e concordo com os <a href="#">Termos e Condições</a> e com a <a href="">Política de Privacidade</a></label>
+                    </div>
+                    <div class="checkbox-wrapper flex">
+                        <input type="checkbox" name="email-mkt" id="email-mkt">
+                        <div class="checkbox-box"></div>
+                        <label for="email-mkt">Aceito receber atualizações e promoções por e-mail</label>
+                    </div>
+                    <div class="checkbox-wrapper flex">
+                        <input type="checkbox" name="sms-mkt" id="sms-mkt">
+                        <div class="checkbox-box"></div>
+                        <label for="sms-mkt">Aceito receber atualizações e promoções por SMS</label>
+                    </div>
+
+                    <div class="button-wrapper">
+                        <button type="submit">
+                            <img src="assets/icons/ticket.svg" alt="Simbolo de Convite">
+                            <span>Gerar convite</span>
+                        </button>
                     </div>
                 </fieldset>
 
